@@ -56,10 +56,35 @@ ul#navigation li a {
 }
 
 .fa{
-	color: #2bd2a9;
-	margin-left: 2.5rem;
-	margin-top: 0.7rem;
+color: #2bd2a9;
+margin-left: 3.5rem;
+  margin-top: 0.4rem;
 }
+
+
+.fa-margin{
+margin-left: 3rem;
+}
+
+
+#navigation li span{
+  margin-left: 2rem;
+  color: #3A3A3A;
+
+}
+
+#navigation li .servicios{
+  margin-left: 0.5rem;
+  color: #3A3A3A;
+
+}
+
+#navigation li a{
+ &:hover {
+ 
+    text-decoration: none;    
+  }
+}  
 
 
 /*===SECTION SOBRE MI===*/
